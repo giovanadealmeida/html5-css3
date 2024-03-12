@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption{
+            font-size: 1.em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+
+        }
+        thead >tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+
+        }
+        thead, tfoot{
+            background-color: gray;
+            color:white ;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+    <!--anatomia para tabelas grande
+        caption
+        thead
+            tr, td, th
+        tbody
+            tr,td,th
+        tfood
+            tr,td,th
+        t-->
+    <table>
+        <caption>Populaçao das unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">Populaçao</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <td>Sao paulo</td>
+            <td class="num">45 919 049</td>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">0000000</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">000000000</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td>0000</td>
+            </tr>
+
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, qui maxime voluptates porro incidunt sequi aperiam inventore veritatis in exercitationem beatae assumenda dolor debitis iure necessitatibus consequuntur culpa doloribus? Natus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae perferendis dolorem amet autem! Illum laudantium delectus, magni voluptatibus odit ipsa temporibus quas. Ab nostrum eum sint dolore quas corrupti voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad esse voluptates fugiat est amet exercitationem excepturi! Perferendis eveniet exercitationem necessitatibus aliquam similique, illum sapiente praesentium voluptas optio aperiam laudantium temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus in adipisci sunt magni reprehenderit accusamus deleniti vitae ad, libero assumenda illum unde maxime voluptates expedita consectetur debitis praesentium sapiente.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, qui maxime voluptates porro incidunt sequi aperiam inventore veritatis in exercitationem beatae assumenda dolor debitis iure necessitatibus consequuntur culpa doloribus? Natus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae perferendis dolorem amet autem! Illum laudantium delectus, magni voluptatibus odit ipsa temporibus quas. Ab nostrum eum sint dolore quas corrupti voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad esse voluptates fugiat est amet exercitationem excepturi! Perferendis eveniet exercitationem necessitatibus aliquam similique, illum sapiente praesentium voluptas optio aperiam laudantium temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus in adipisci sunt magni reprehenderit accusamus deleniti vitae ad, libero assumenda illum unde maxime voluptates expedita consectetur debitis praesentium sapiente.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, qui maxime voluptates porro incidunt sequi aperiam inventore veritatis in exercitationem beatae assumenda dolor debitis iure necessitatibus consequuntur culpa doloribus? Natus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae perferendis dolorem amet autem! Illum laudantium delectus, magni voluptatibus odit ipsa temporibus quas. Ab nostrum eum sint dolore quas corrupti voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad esse voluptates fugiat est amet exercitationem excepturi! Perferendis eveniet exercitationem necessitatibus aliquam similique, illum sapiente praesentium voluptas optio aperiam laudantium temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus in adipisci sunt magni reprehenderit accusamus deleniti vitae ad, libero assumenda illum unde maxime voluptates expedita consectetur debitis praesentium sapiente.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, qui maxime voluptates porro incidunt sequi aperiam inventore veritatis in exercitationem beatae assumenda dolor debitis iure necessitatibus consequuntur culpa doloribus? Natus? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae perferendis dolorem amet autem! Illum laudantium delectus, magni voluptatibus odit ipsa temporibus quas. Ab nostrum eum sint dolore quas corrupti voluptate! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad esse voluptates fugiat est amet exercitationem excepturi! Perferendis eveniet exercitationem necessitatibus aliquam similique, illum sapiente praesentium voluptas optio aperiam laudantium temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum minus in adipisci sunt magni reprehenderit accusamus deleniti vitae ad, libero assumenda illum unde maxime voluptates expedita consectetur debitis praesentium sapiente.</p>
+    
+</body>
+</html>
