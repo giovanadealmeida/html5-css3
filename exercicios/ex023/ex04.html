@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.1em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tr.destaque{
+            background-color: chartreuse;
+        }
+        col.cnome{
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="cidade">
+            <col class="cprof">
+        
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
+        </tr>
+        <tr>
+            <td>Giovana</td>
+            <td>27</td>
+            <td>Engenheira</td>
+        </tr>
+        <tr class="destaque">
+            <td>Carlos</td>
+            <td>71</td>
+            <td>Engenheiro</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

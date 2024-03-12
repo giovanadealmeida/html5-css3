@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.1em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tr:nth-child(even){
+            background-color: rgba(187, 175, 175, 0.747);
+        }
+        div#conteiner{
+              overflow-x: auto;
+              
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In veritatis quod aliquid voluptate adipisci porro, sed consectetur sunt quas, molestias dicta tenetur doloribus non sint, fuga corporis dolorum voluptatum assumenda!</p>
+    <div id="conteiner">
+        <table>
+            <caption>Tabelas responsivas</caption>
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Jan</th>
+                    <th>Fev</th>
+                    <th>Mar</th>
+                    <th>abr</th>
+                    <th>Mai</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tv 40°</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
+                </tr>
+                <tr>
+                    <td>Bicicleta</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
+                </tr>
+                <tr>
+                    <td>celular</td>
+                    <td>01</td>
+                    <td>02</td>
+                    <td>03</td>
+                    <td>04</td>
+                    <td>05</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
